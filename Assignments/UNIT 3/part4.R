@@ -57,10 +57,7 @@ print(paste("Is string1 < string2?", string1 < string2))   # TRUE if "Apple" com
 print(paste("Is string1 > string2?", string1 > string2))   # TRUE if "Apple" comes after "banana"
 print(paste("Are the strings equal?", string1 == string2)) # TRUE if both are exactly the same
 # Explanation:
-# - R compares strings **based on ASCII values**.
-# - Uppercase letters (A-Z) have **lower ASCII values** than lowercase letters (a-z).
-# - "Apple" starts with 'A' (ASCII 65), and "banana" starts with 'b' (ASCII 98).
-# - Since 'A' has a lower ASCII value than 'b', "Apple" < "banana" returns **TRUE**.
+# R refers the order : a<A<b<B<c<C<d<D<e<E<......
 
 #20. Write an R script that creates a string containing a newline, tab, and a backslash using escape sequences. Print the
 # string to the console using cat().
