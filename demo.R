@@ -84,7 +84,7 @@ while(x<=6){
   print(v)
   x<-x+1
 }
-
+ 
 #Take Input from user
 name<-readline(prompt="Enter your name:")
 age<-readline(prompt="Enter your age:")
